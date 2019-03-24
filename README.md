@@ -7,4 +7,4 @@ I am a Computer Science major with a Finance minor. I have knowledge of the prog
 
 Battleship:
 
-Two player, Client and Server battleship game. In this game you are playing on a 4x4 board and place one 3 long ship that can be at a diagonal. The first person to get 3 hits wins.
+  Two player, Client and Server battleship game. In this game you are playing on a 4x4 board and place one 3 long ship that can be at a diagonal. The first person to get 3 hits wins.
