@@ -1,5 +1,5 @@
 # Projects
-All of the projects I do outside of classwork
+All of the projects that I have completed, both for class as well as on personal time.
 
 My name is Trenton Davis, and I attend Ohio University, with an expected graduation date being December, 2019.
 
