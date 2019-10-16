@@ -28,3 +28,6 @@ I am a Computer Science major with a Finance minor. I have knowledge of the prog
   greedy.py and greedy1.py: These files are identical, except for the things that are output and the terminating factor. These files task csv files and is able to analyze all of the data pretty efficiently. We use many python tricks to accomplish all of this in the most efficient way. The csv's in the folder are ones that can used in the code. 
   
   decisionOneCall.py: This is a similar implementation to the greedy file, except it calculates the motifs based on a phi value that is calculated in code. This format takes different into account more information.
+  
+# 4420protocol_1.c
+  This file goes to the proc file in your computer, and gets the name, parentid, id, and the size of the memory used for each individual process. This was testing in linux machines, and was used later to help create a tree diagram of the processes with nodes and leaves as children. 
