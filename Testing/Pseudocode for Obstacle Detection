@@ -1,0 +1,14 @@
+Pseudocode for Obstacle Detection algorithm
+
+	- Get data from the depth camera in the form of a 640 x 360 matrix that has the depth in each element
+
+	- Find region of interest using Letian's code.
+
+	- Search each pixel within the region of interest to find data that is between the ranges that are specified.
+
+		- These ranges will be determined by subtracting the max range from the min range and dividing by 5 so that there are 5 equal ranges.
+
+		- I need to search each range for pixels that stand out, and when there are enough pixels to make up a group I will assume this is an obstacle. (This will be done by counting the number of pixels that are consecutive and once there are so many pixels it will bypass a threshold that will declare the cluster an obstacle.)
+
+		- After getting this data, I will send the minimum x value, the maximum x value, as well as the distance to the obstacle to Letian for mapping.
+
