@@ -134,11 +134,7 @@ motifNames = data.columns[1:-1]
 
 numberofmotifs = 0
 
-depth_left = 0
-depth_right = 0
-
 # Entering the first iteration of the program, this is all of the data, and starts the recursion.
 dt.bestmotif(np.arange(motifs.shape[0]))
-print(depth_left, depth_right)
 
 print("There are ", numberofmotifs, " motifs")
